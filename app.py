@@ -28,7 +28,7 @@ def hepsini_degistir():
     st.session_state.crunch = random.choice(crunch_katmani)
 
 # === WEB ARAYÜZÜ TASARIMI ===
-st.title("🍲 Shifty'nin Mix & Match Mutfağı")
+st.title("🍲 Gökada'nın kaseleri")
 st.subheader("Bugün ne yesem derdine son! 5 katmanlı kase jeneratörü.")
 st.write("---")
 
