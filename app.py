@@ -5,11 +5,13 @@ import random
 st.set_page_config(page_title="Mix & Match Mutfağı", page_icon="🍲", layout="centered")
 
 # === MALZEME LİSTELERİ ===
-proteinler = ["Füme Somon", "Tavuk Göğsü", "Haşlanmış Yumurta", "Yoğurt / Labne", "Ton Balığı", "Karides", "Izgara Tavuk", "Köfte", "Nohut", "Mantar", "Somon", "Tofu"]
-tabanlar = ["Kinoa", "Karabuğday", "Mini Patates", "Fırın Patates", "Tatlı Patates", "Çavdar Ekmeği", "Ekşi Maya Ekmek", "Pirinç Pilavı", "Geniş Makarna"]
-sebzeler = ["Salatalık", "Turp", "Dereotu", "Roka", "Ispanak", "Kırmızı Lahana", "Limon", "Brokoli", "Fırınlanmış Kuşkonmaz", "Sote Karamelize Soğan", "Çeri Domates", "Avokado"]
-soslar = ["Kornişonlu Sos", "Kapari", "Hardal", "Sirke", "Zeytinyağı", "Tahinli Yoğurt", "Pesto", "Acılı Sriracha", "Limonlu Zeytinyağı", "Soya-Sarımsak"]
+proteinler = ["Füme Somon", "Tavuk Haşlama", "Haşlanmış Yumurta","Ton Balığı", "Karides", "Izgara Tavuk", "Köfte", "Nohut", "Mantar", "Somon", "Tofu"]
+tabanlar = ["Kinoa", "Karabuğday", "Pirinç Pilavı", "Bulgur Pilavı", "Patates Kızartma", "Fırın Patates", "Tatlı Patates", "Patates Püresi", "Makarna"]
+sebzeler = ["Ispanak", "Taze Fasulye", "Pazı", "Enginar", "Kereviz", "Brokoli", "Brüksel Lahanası", "Tatlı Patates", "Karnabahar", "Kabak", "Patlıcan", "Avokado"]
+soslar = ["Kornişonlu Sos", "Kapari", "Hardal", "Sirke", "Zeytinyağı", "Tahinli Yoğurt","Yoğurt / Labne" "Pesto", "Acılı Sriracha", "Limonlu Zeytinyağı", "Soya-Sarımsak"]
 crunch_katmani = ["Kabak Çekirdeği", "Ay Çekirdeği", "Ceviz", "Susam", "Kavrulmuş Badem", "Taze Nane", "Çörek Otu", "Parmesan"]
+yanci = [
+
 
 # Web sitesi yenilendiğinde malzemelerin kaybolmaması için hafıza (Session State) oluşturuyoruz
 if "taban" not in st.session_state:
@@ -29,7 +31,7 @@ def hepsini_degistir():
 
 # === WEB ARAYÜZÜ TASARIMI ===
 st.title("🍲 Gökada'nın kaseleri")
-st.subheader("Bugün ne yesem derdine son! 5 katmanlı kase jeneratörü.")
+st.subheader("5 katmanlı kase jeneratörü.")
 st.write("---")
 
 # Menüyü Kartlar Halinde Gösterelim
