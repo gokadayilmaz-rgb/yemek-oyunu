@@ -10,7 +10,7 @@ tabanlar = ["Kinoa", "Karabuğday", "Pirinç Pilavı", "Bulgur Pilavı", "Patate
 sebzeler = ["Ispanak", "Taze Fasulye", "Pazı", "Enginar", "Kereviz", "Brokoli", "Brüksel Lahanası", "Tatlı Patates", "Karnabahar", "Kabak", "Patlıcan", "Avokado"]
 soslar = ["Kornişonlu Sos", "Kapari", "Hardal", "Sirke", "Zeytinyağı", "Tahinli Yoğurt","Yoğurt / Labne" "Pesto", "Acılı Sriracha", "Limonlu Zeytinyağı", "Soya-Sarımsak"]
 crunch_katmani = ["Kabak Çekirdeği", "Ay Çekirdeği", "Ceviz", "Susam", "Kavrulmuş Badem", "Taze Nane", "Çörek Otu", "Parmesan"]
-yanci = [
+
 
 
 # Web sitesi yenilendiğinde malzemelerin kaybolmaması için hafıza (Session State) oluşturuyoruz
